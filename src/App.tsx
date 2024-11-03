@@ -6,7 +6,7 @@ import { AddRestaurantForm } from './components/AddRestaurantForm';
 import { FilterBar } from './components/FilterBar';
 import { MapView } from './components/MapView';
 
-// Use environment variable with fallback for development
+// Use environment variable with fallback for development ABC
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
 
 export default function App() {
